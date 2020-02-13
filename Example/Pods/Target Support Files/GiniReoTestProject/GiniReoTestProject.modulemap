@@ -1,0 +1,6 @@
+framework module GiniReoTestProject {
+  umbrella header "GiniReoTestProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

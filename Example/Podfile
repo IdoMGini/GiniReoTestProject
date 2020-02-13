@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GiniReoTestProject_Example' do
+  pod 'GiniReoTestProject', :path => '../'
+
+  target 'GiniReoTestProject_Tests' do
+    inherit! :search_paths
+
+   # pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
