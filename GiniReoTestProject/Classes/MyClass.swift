@@ -19,11 +19,11 @@ public class MyClass
         self.age    = age
     }
     
-    func loadData()
+    public func loadData()
     {
        SessionManager.default.request("https://www.google.com").responseString { (response) in
             
-            print(String(describing: response.value))
+            print("MyClass load data " + String(describing: response.value))
         }
     }
 }
