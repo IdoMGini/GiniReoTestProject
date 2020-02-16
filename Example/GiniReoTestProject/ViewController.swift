@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         let my = MyClass(name: "", age: 12)
         
         my.loadData()
-        
     }
 
     override func didReceiveMemoryWarning() {
