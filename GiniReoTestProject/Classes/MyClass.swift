@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 public class MyClass
 {
@@ -16,5 +17,13 @@ public class MyClass
     {
         self.name   = name
         self.age    = age
+    }
+    
+    func loadData()
+    {
+       SessionManager.default.request("https://www.google.com").responseString { (response) in
+            
+            print(String(describing: response.value))
+        }
     }
 }

@@ -45,7 +45,7 @@
 		C6FB09021F0B9AED781C44BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D118D10A007B66A0C8222A0D /* Pods_GiniReoTestProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiniReoTestProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBF2E55EC46ED09E7EDD3FB /* Pods-GiniReoTestProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiniReoTestProject_Example.debug.xcconfig"; path = "Target Support Files/Pods-GiniReoTestProject_Example/Pods-GiniReoTestProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F731CC49588107B0F21226FC /* GiniReoTestProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GiniReoTestProject.podspec; path = ../GiniReoTestProject.podspec; sourceTree = "<group>"; };
+		F731CC49588107B0F21226FC /* GiniReoTestProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GiniReoTestProject.podspec; path = ../GiniReoTestProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FAC5FFD5091041E6E4F22E0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
