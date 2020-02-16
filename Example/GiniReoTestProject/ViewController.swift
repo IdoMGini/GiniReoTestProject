@@ -16,6 +16,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let my = MyClass(name: "", age: 12)
+        
+        my.loadData()
+        
     }
 
     override func didReceiveMemoryWarning() {
