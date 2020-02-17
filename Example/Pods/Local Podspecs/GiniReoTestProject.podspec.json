@@ -1,9 +1,9 @@
 {
   "name": "GiniReoTestProject",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "summary": "Test project",
   "description": "project add long description of the pod here.",
-  "homepage": "https://github.com/Ido Meirov/GiniReoTestProject",
+  "homepage": "https://github.com/IdoMGini/GiniReoTestProject",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,18 +12,33 @@
     "Ido Meirov": "idom@gini-apps.com"
   },
   "source": {
-    "git": "https://github.com/Ido Meirov/GiniReoTestProject.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/IdoMGini/GiniReoTestProject.git",
+    "tag": "0.5.0"
   },
   "swift_versions": "5.0",
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "GiniReoTestProject/Classes/**/*",
-  "dependencies": {
-    "AlamofireImage": [
-      "~> 3.5"
-    ]
-  },
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "AlamofireImage": [
+          "~> 3.5"
+        ]
+      },
+      "source_files": "GiniReoTestProject/Core/**/*"
+    },
+    {
+      "name": "Child",
+      "source_files": "GiniReoTestProject/Child/**/*",
+      "dependencies": {
+        "GiniReoTestProject/Core": [
+
+        ]
+      }
+    }
+  ],
   "swift_version": "5.0"
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GiniReoTestProject'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'Test project '
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,23 @@ project add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'GiniReoTestProject/Classes/**/*'
+  
+  
+  s.default_subspec = 'Core'
+  
+  s.subspec 'Core' do |spec|
+      
+      spec.dependency 'AlamofireImage', '~> 3.5'
+      spec.source_files = 'GiniReoTestProject/Core/**/*'
+  
+  end
+  
+  s.subspec 'Child' do |spec|
+      
+      spec.source_files = 'GiniReoTestProject/Child/**/*'
+      
+      spec.dependency 'GiniReoTestProject/Core'
+  end
   
   # s.resource_bundles = {
   #   'GiniReoTestProject' => ['GiniReoTestProject/Assets/*.png']
@@ -40,5 +56,5 @@ project add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'AlamofireImage', '~> 3.5'
+  
 end

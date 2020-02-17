@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		065999EBC5A9946EB3E196CDFC4A105D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CE0C3C2BEB63C6753F9CF27E365D3E /* Alamofire.framework */; };
-		09732B83CD4D66D88D53B539D80A2A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6183EE42EC0A40B66832EB30B1CDAE /* Foundation.framework */; };
 		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FAF1BEA6B547993B2E30671010EC05 /* ParameterEncoding.swift */; };
 		0F5D2980CEE47039912DB5BE3BC33F4F /* Pods-GiniReoTestProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14EEB89E48468C5CA233EAAD0CAA2C /* Pods-GiniReoTestProject_Example-dummy.m */; };
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD89CF68E30F783D6E1E6D503D967E /* Notifications.swift */; };
@@ -19,14 +18,14 @@
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB455674D1A61C599677C2903B2A22B1 /* MultipartFormData.swift */; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B67632C26FE2E2F884AED5D71B6E6A /* SessionDelegate.swift */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA616EC751C65BEAB9D46E78EE39D4 /* NetworkReachabilityManager.swift */; };
+		3CE8A5BC4EF46E7C9593820AC140BC62 /* MyChildClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF774BEB459E122EAD5B8C3AAAC0377 /* MyChildClass.swift */; };
+		473D6DD23C7BF8CA4347D37A7E8E7A03 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320A6ABF7A71B3B1CC72359502A8A7DC /* MyClass.swift */; };
 		4AC71683BB84DFAE3F0FCD5FF5A7AC7C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5B4E559306AB51847FC8EDED3F587 /* ImageCache.swift */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE269E821AD48EC2D281CA41C7F00E0F /* Validation.swift */; };
-		537AB66A0FCB30AEF0F6FF75B7226C63 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B0978C883FF76502C17F96CF305D72 /* AlamofireImage.framework */; };
 		58880A0E11955B8BE86FD35CDD8AE929 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448F1808234E54D95EA8DBEBD06B882 /* ImageDownloader.swift */; };
 		5C74F467EE05992C5EE95FA46D4F1AD7 /* AlamofireImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9385F07BB23DE9DCBF19C870EF638FFD /* AlamofireImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E3FE24F26AE535303A47488BE8188E2 /* AlamofireImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD9F09A714D7E9B1AD4C56A7DF8F99 /* AlamofireImage-dummy.m */; };
 		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59A3AB9565EB74663A495F4ABF89195 /* Result.swift */; };
-		6E3EAC53F9814965F546128CA3ABDFEA /* GiniReoTestProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82713175CBFB22FE8D3EBEC44D39E857 /* GiniReoTestProject-dummy.m */; };
 		75C7A60D8FA8F39F14599593E137981C /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB454412E779395F8F70A4EDC73C2 /* ImageFilter.swift */; };
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6183EE42EC0A40B66832EB30B1CDAE /* Foundation.framework */; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D51DA233330F5E92C4EC83A131B991 /* AFError.swift */; };
@@ -37,19 +36,21 @@
 		95B80BC903B154BC90EE86A67C680FBF /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A280D9F5D700FAEF3EF7EE04DED1204 /* Request+AlamofireImage.swift */; };
 		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2AD0BDBCC66A5C738D4A494096FF16 /* Request.swift */; };
 		9A56D2C6A0B6DAB2907A16166E5E171E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A72CFAB96B6D1D3C4DC0C76F398210D /* Image.swift */; };
-		9D2BBA08E53DE28E91138D174EEB87B4 /* GiniReoTestProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0801CA018655BFDCED977BCD7CF80B24 /* GiniReoTestProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8294918E82955EDB13E3CA8723DADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6183EE42EC0A40B66832EB30B1CDAE /* Foundation.framework */; };
 		A36DF114963338720F2161D16042D89A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6183EE42EC0A40B66832EB30B1CDAE /* Foundation.framework */; };
-		AFC0392F702E41BDFB76B5AC23570D11 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC112731137E29A80B62EEADD2F5C63 /* MyClass.swift */; };
 		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982D59A523E5EAE1BD4B0A338F97C39D /* TaskDelegate.swift */; };
 		B033456D8DF2D4465993D4AC36A9F45A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6183EE42EC0A40B66832EB30B1CDAE /* Foundation.framework */; };
 		B35221A8D4FF492A4FA00243479129D5 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4176E5B1F4122C8D27CB8068077D29D /* AFIError.swift */; };
 		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC96955443EA38F409A499177228ECE /* Alamofire.swift */; };
 		C44770D07E80CD351B721C2359728673 /* Pods-GiniReoTestProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E916F47911305AB54B0FC771065DE5F9 /* Pods-GiniReoTestProject_Tests-dummy.m */; };
+		C4B4353BE555FC189B711CA49AE1B552 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B0978C883FF76502C17F96CF305D72 /* AlamofireImage.framework */; };
 		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FDFABB05F29E5CB214D1C0B49EA0CD /* DispatchQueue+Alamofire.swift */; };
 		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEE46880BB32AB3D57E5640F7B98B0 /* Response.swift */; };
 		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265324F8BD9638EB8CFC259F0918366C /* ResponseSerialization.swift */; };
 		E47E5D0A0A4AFC1B549A2334E2571F5A /* Pods-GiniReoTestProject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF5A222E2CEFAB399247B2359227FD2 /* Pods-GiniReoTestProject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E63EE485EE352B25F9006FC8AD6F9BD9 /* GiniReoTestProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD9429053707622BA37EFEF01A6D2D /* GiniReoTestProject-dummy.m */; };
 		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03FF5EDFF22821FB612824EF121860 /* ServerTrustPolicy.swift */; };
+		F3DA1979972A0AC8324CB4901506AA2E /* GiniReoTestProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B3FB0700C338122210086892CE7BB5 /* GiniReoTestProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FBBF17CF8D1C5C74077FA6A7167E71 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -61,7 +62,7 @@
 			remoteGlobalIDString = 6623E4ED214AEB64D85C3C66CD53E158;
 			remoteInfo = GiniReoTestProject;
 		};
-		30DDBAB818EC3BAAE93DA92173D5A3B9 /* PBXContainerItemProxy */ = {
+		55EB01A3880365DD2378086F42DFABC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -100,33 +101,33 @@
 
 /* Begin PBXFileReference section */
 		03CE0C3C2BEB63C6753F9CF27E365D3E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0801CA018655BFDCED977BCD7CF80B24 /* GiniReoTestProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GiniReoTestProject-umbrella.h"; sourceTree = "<group>"; };
-		090D565D6453CEE192B99BE2210C61AE /* GiniReoTestProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GiniReoTestProject.xcconfig; sourceTree = "<group>"; };
 		0A03FF5EDFF22821FB612824EF121860 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		0A6183EE42EC0A40B66832EB30B1CDAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		110585212D0EA4A5CD074C5A47BBA900 /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
 		1448F1808234E54D95EA8DBEBD06B882 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
 		14A275D1E81A986F1DAB8BF732CAE004 /* AlamofireImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlamofireImage-Info.plist"; sourceTree = "<group>"; };
+		1765FF81186C87F8D0B8A0486DB4F6BA /* GiniReoTestProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GiniReoTestProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1968F21576735B9387EBA0EEF9FED181 /* Pods-GiniReoTestProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GiniReoTestProject_Example.modulemap"; sourceTree = "<group>"; };
 		1A280D9F5D700FAEF3EF7EE04DED1204 /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
-		1AC112731137E29A80B62EEADD2F5C63 /* MyClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyClass.swift; path = GiniReoTestProject/Classes/MyClass.swift; sourceTree = "<group>"; };
 		1EAAC88F310ED627BB6D3626303F3528 /* GiniReoTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GiniReoTestProject.framework; path = GiniReoTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF20884DB6FF10F2EA435C3D73ADA4B /* Pods_GiniReoTestProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GiniReoTestProject_Example.framework; path = "Pods-GiniReoTestProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF5A222E2CEFAB399247B2359227FD2 /* Pods-GiniReoTestProject_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GiniReoTestProject_Example-umbrella.h"; sourceTree = "<group>"; };
+		24DD9429053707622BA37EFEF01A6D2D /* GiniReoTestProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GiniReoTestProject-dummy.m"; sourceTree = "<group>"; };
 		265324F8BD9638EB8CFC259F0918366C /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		26B0978C883FF76502C17F96CF305D72 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2829B6D20E7CC4B13DD121CB905B5B22 /* AlamofireImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.xcconfig; sourceTree = "<group>"; };
 		2A72CFAB96B6D1D3C4DC0C76F398210D /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
 		2FC96955443EA38F409A499177228ECE /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		320A6ABF7A71B3B1CC72359502A8A7DC /* MyClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyClass.swift; path = GiniReoTestProject/Core/MyClass.swift; sourceTree = "<group>"; };
 		34BD89CF68E30F783D6E1E6D503D967E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		42D91D77031036E36CF5AE880F447F89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		43B3FB0700C338122210086892CE7BB5 /* GiniReoTestProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GiniReoTestProject-umbrella.h"; sourceTree = "<group>"; };
 		4CCD741B94BE44EE75B63E28890A899F /* Pods-GiniReoTestProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GiniReoTestProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		502730118290B752EE987F7E8AE7AB0B /* GiniReoTestProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GiniReoTestProject-prefix.pch"; sourceTree = "<group>"; };
 		56B96033E510409CEE437CE0714F7BFC /* Pods-GiniReoTestProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GiniReoTestProject_Tests.modulemap"; sourceTree = "<group>"; };
 		582D8E99538A942C01BE26FFB8B6516F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		5CBD9F09A714D7E9B1AD4C56A7DF8F99 /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA00FF9E330530AFC8DAFDF65BD641D /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
-		626B37FBEAB4B96F01029C9EB87D9370 /* GiniReoTestProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GiniReoTestProject-prefix.pch"; sourceTree = "<group>"; };
 		66B67632C26FE2E2F884AED5D71B6E6A /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		673101EAA77AB5AD5A1B5197935D60EE /* Pods-GiniReoTestProject_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GiniReoTestProject_Example-Info.plist"; sourceTree = "<group>"; };
 		67FBBF17CF8D1C5C74077FA6A7167E71 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
@@ -135,8 +136,8 @@
 		76BD905D60AB29D26B5FFCF1533E0119 /* Pods-GiniReoTestProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GiniReoTestProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7981D08F032133FF32E2925535E8B096 /* Pods_GiniReoTestProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GiniReoTestProject_Tests.framework; path = "Pods-GiniReoTestProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC0E1BD863C90EFE4AA75184A849DCD /* Pods-GiniReoTestProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GiniReoTestProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E2281633C720960420597BEB104517A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		81BEE46880BB32AB3D57E5640F7B98B0 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		82713175CBFB22FE8D3EBEC44D39E857 /* GiniReoTestProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GiniReoTestProject-dummy.m"; sourceTree = "<group>"; };
 		82B2E57267DB08E9B3CF82C01EBA9958 /* Pods-GiniReoTestProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GiniReoTestProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		82BB08CCCF9B306B57166A8EE80F8EFA /* Pods-GiniReoTestProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GiniReoTestProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A26294A3F09C0E62603CDBE7EAB870B /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
@@ -145,20 +146,21 @@
 		90AF53B4ABD8CB0D2ECC60F0DFF7195A /* Pods-GiniReoTestProject_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GiniReoTestProject_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9385F07BB23DE9DCBF19C870EF638FFD /* AlamofireImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-umbrella.h"; sourceTree = "<group>"; };
 		982D59A523E5EAE1BD4B0A338F97C39D /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		99DDAF85F3CEDC6643EB8790FCB4A6B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9CD5B4E559306AB51847FC8EDED3F587 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25318A271EAB0D02E87C361D0E12C98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A900278EAFB55B70B0D2ECD4B52A9DFC /* GiniReoTestProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GiniReoTestProject.modulemap; sourceTree = "<group>"; };
+		ABAB4AE9C05886A0C0F4C922FA72129F /* GiniReoTestProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GiniReoTestProject-Info.plist"; sourceTree = "<group>"; };
 		AEB5A1EA5DF76B6270A30A51B04B19CE /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		B8D1F645BCFE0588666BF60CC47B8335 /* GiniReoTestProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GiniReoTestProject-Info.plist"; sourceTree = "<group>"; };
+		B0089DCD4CE603CD9A49CA16A1213796 /* GiniReoTestProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GiniReoTestProject.xcconfig; sourceTree = "<group>"; };
 		B9D51DA233330F5E92C4EC83A131B991 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		BBF99DECAB123FD139A547D27187AAB6 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
 		BF8FB454412E779395F8F70A4EDC73C2 /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
-		C0E309AA980B36E1CFAF9687EAA6B6A1 /* GiniReoTestProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GiniReoTestProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0385D851B16B0D20CD786D924B4D4C2 /* GiniReoTestProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GiniReoTestProject.modulemap; sourceTree = "<group>"; };
 		C4176E5B1F4122C8D27CB8068077D29D /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
 		C63D8727A1F401FF288F200928AF1EE2 /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
 		C8498160B5D29EF2745E4D41F2D971B5 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB455674D1A61C599677C2903B2A22B1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		CEF774BEB459E122EAD5B8C3AAAC0377 /* MyChildClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyChildClass.swift; path = GiniReoTestProject/Child/MyChildClass.swift; sourceTree = "<group>"; };
 		D6EA7BF1655B11572E852653C587AA09 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
 		D82F798FB42090CDBA4763F44A52F9E6 /* Pods-GiniReoTestProject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GiniReoTestProject_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D91A045A553CD42D0A334EF2476C85F7 /* Pods-GiniReoTestProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GiniReoTestProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -192,12 +194,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AE8AA3A5F4BD5FD8222B18DC6080E10 /* Frameworks */ = {
+		9C4FD7C2B2B447B50FB8012EFFC3DF5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537AB66A0FCB30AEF0F6FF75B7226C63 /* AlamofireImage.framework in Frameworks */,
-				09732B83CD4D66D88D53B539D80A2A3D /* Foundation.framework in Frameworks */,
+				C4B4353BE555FC189B711CA49AE1B552 /* AlamofireImage.framework in Frameworks */,
+				9B8294918E82955EDB13E3CA8723DADB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,26 +237,28 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		26277D75E191FAC6B7037CC07E6008A0 /* Development Pods */ = {
+		2B9622E3F969321D960EFBD692ACABD5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				455B785040AE18202C784A60EE15FF5E /* GiniReoTestProject */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3518DD6ABCF68FEC088BDB1ABD2A3A41 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A900278EAFB55B70B0D2ECD4B52A9DFC /* GiniReoTestProject.modulemap */,
-				090D565D6453CEE192B99BE2210C61AE /* GiniReoTestProject.xcconfig */,
-				82713175CBFB22FE8D3EBEC44D39E857 /* GiniReoTestProject-dummy.m */,
-				B8D1F645BCFE0588666BF60CC47B8335 /* GiniReoTestProject-Info.plist */,
-				626B37FBEAB4B96F01029C9EB87D9370 /* GiniReoTestProject-prefix.pch */,
-				0801CA018655BFDCED977BCD7CF80B24 /* GiniReoTestProject-umbrella.h */,
+				C0385D851B16B0D20CD786D924B4D4C2 /* GiniReoTestProject.modulemap */,
+				B0089DCD4CE603CD9A49CA16A1213796 /* GiniReoTestProject.xcconfig */,
+				24DD9429053707622BA37EFEF01A6D2D /* GiniReoTestProject-dummy.m */,
+				ABAB4AE9C05886A0C0F4C922FA72129F /* GiniReoTestProject-Info.plist */,
+				502730118290B752EE987F7E8AE7AB0B /* GiniReoTestProject-prefix.pch */,
+				43B3FB0700C338122210086892CE7BB5 /* GiniReoTestProject-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GiniReoTestProject";
+			sourceTree = "<group>";
+		};
+		2E498022D129E9E7F3891296A896A982 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1765FF81186C87F8D0B8A0486DB4F6BA /* GiniReoTestProject.podspec */,
+				99DDAF85F3CEDC6643EB8790FCB4A6B8 /* LICENSE */,
+				7E2281633C720960420597BEB104517A /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		396EC94CD3445143C14CE0FDFFA8FF10 /* Pods-GiniReoTestProject_Example */ = {
@@ -272,17 +276,6 @@
 			);
 			name = "Pods-GiniReoTestProject_Example";
 			path = "Target Support Files/Pods-GiniReoTestProject_Example";
-			sourceTree = "<group>";
-		};
-		455B785040AE18202C784A60EE15FF5E /* GiniReoTestProject */ = {
-			isa = PBXGroup;
-			children = (
-				1AC112731137E29A80B62EEADD2F5C63 /* MyClass.swift */,
-				763746FC3781E8F885F59F774E7945F9 /* Pod */,
-				3518DD6ABCF68FEC088BDB1ABD2A3A41 /* Support Files */,
-			);
-			name = GiniReoTestProject;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		4C9DE0C4AE0F2B2170FCAB7317773B25 /* Alamofire */ = {
@@ -329,6 +322,14 @@
 			path = AlamofireImage;
 			sourceTree = "<group>";
 		};
+		5530B190B86A9CC9FE0040DCB358C028 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9407A1811B38F3ED357E93E0B7A232B9 /* GiniReoTestProject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		5FB30E35566A5FB2583D1D7AE7BDCCDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,16 +340,6 @@
 				7981D08F032133FF32E2925535E8B096 /* Pods_GiniReoTestProject_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		763746FC3781E8F885F59F774E7945F9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C0E309AA980B36E1CFAF9687EAA6B6A1 /* GiniReoTestProject.podspec */,
-				A25318A271EAB0D02E87C361D0E12C98 /* LICENSE */,
-				42D91D77031036E36CF5AE880F447F89 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		799E461355EE2B566F6BB530AC124343 /* Pods-GiniReoTestProject_Tests */ = {
@@ -367,12 +358,32 @@
 			path = "Target Support Files/Pods-GiniReoTestProject_Tests";
 			sourceTree = "<group>";
 		};
+		9407A1811B38F3ED357E93E0B7A232B9 /* GiniReoTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				AF0A228C98C4BD1A04BA725277DF4C30 /* Child */,
+				D87C80E70376239590D4D00E3808D153 /* Core */,
+				2E498022D129E9E7F3891296A896A982 /* Pod */,
+				2B9622E3F969321D960EFBD692ACABD5 /* Support Files */,
+			);
+			name = GiniReoTestProject;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		983FCA9CB58C144FD68F2C33105B767B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				0A6183EE42EC0A40B66832EB30B1CDAE /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		AF0A228C98C4BD1A04BA725277DF4C30 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				CEF774BEB459E122EAD5B8C3AAAC0377 /* MyChildClass.swift */,
+			);
+			name = Child;
 			sourceTree = "<group>";
 		};
 		BCE988A47AA8D87E6A51113DA5D257CA /* Pods */ = {
@@ -398,12 +409,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				26277D75E191FAC6B7037CC07E6008A0 /* Development Pods */,
+				5530B190B86A9CC9FE0040DCB358C028 /* Development Pods */,
 				BF9ED1041C9D7F9C7171A93F5C17FDA5 /* Frameworks */,
 				BCE988A47AA8D87E6A51113DA5D257CA /* Pods */,
 				5FB30E35566A5FB2583D1D7AE7BDCCDC /* Products */,
 				F6C67EA5A7F1CA026F176250A887EDC1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D87C80E70376239590D4D00E3808D153 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				320A6ABF7A71B3B1CC72359502A8A7DC /* MyClass.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		EC072E55924D3DC84E044354C38483A1 /* Support Files */ = {
@@ -440,19 +459,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23ABDA8DF7719A9D0859CBC9CA779C22 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D2BBA08E53DE28E91138D174EEB87B4 /* GiniReoTestProject-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357350258B03B358E548469ACBD24006 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DA1979972A0AC8324CB4901506AA2E /* GiniReoTestProject-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,17 +515,17 @@
 		};
 		6623E4ED214AEB64D85C3C66CD53E158 /* GiniReoTestProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8D80B3959FA8299C9AE7BABD4EB355C /* Build configuration list for PBXNativeTarget "GiniReoTestProject" */;
+			buildConfigurationList = DAB823C1814503443FAFFEFF99282A08 /* Build configuration list for PBXNativeTarget "GiniReoTestProject" */;
 			buildPhases = (
-				23ABDA8DF7719A9D0859CBC9CA779C22 /* Headers */,
-				044760C9469DE4E5BB142CDC617C201B /* Sources */,
-				8AE8AA3A5F4BD5FD8222B18DC6080E10 /* Frameworks */,
-				844159EC08C7C7D2F657A21E9003714B /* Resources */,
+				357350258B03B358E548469ACBD24006 /* Headers */,
+				6658E1383EE8E4F77DD653444104AE34 /* Sources */,
+				9C4FD7C2B2B447B50FB8012EFFC3DF5B /* Frameworks */,
+				63CBC1E17AB72B4B34B41E4D6CC07DC5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				399C941F755E451FEA78944663AABD41 /* PBXTargetDependency */,
+				65C5309ED77A66611F85777244E14044 /* PBXTargetDependency */,
 			);
 			name = GiniReoTestProject;
 			productName = GiniReoTestProject;
@@ -610,7 +629,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		844159EC08C7C7D2F657A21E9003714B /* Resources */ = {
+		63CBC1E17AB72B4B34B41E4D6CC07DC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -641,15 +660,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		044760C9469DE4E5BB142CDC617C201B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E3EAC53F9814965F546128CA3ABDFEA /* GiniReoTestProject-dummy.m in Sources */,
-				AFC0392F702E41BDFB76B5AC23570D11 /* MyClass.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -692,6 +702,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6658E1383EE8E4F77DD653444104AE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63EE485EE352B25F9006FC8AD6F9BD9 /* GiniReoTestProject-dummy.m in Sources */,
+				3CE8A5BC4EF46E7C9593820AC140BC62 /* MyChildClass.swift in Sources */,
+				473D6DD23C7BF8CA4347D37A7E8E7A03 /* MyClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8892B13BE639D117411FF80221612759 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -717,11 +737,11 @@
 			target = DF6DFCF939FA40C6B078778B3D7E4BAA /* Pods-GiniReoTestProject_Example */;
 			targetProxy = B2668E0E871A3A4283CFCA404E2978BE /* PBXContainerItemProxy */;
 		};
-		399C941F755E451FEA78944663AABD41 /* PBXTargetDependency */ = {
+		65C5309ED77A66611F85777244E14044 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AlamofireImage;
 			target = C9778AE8394BE451567650E0B239BA21 /* AlamofireImage */;
-			targetProxy = 30DDBAB818EC3BAAE93DA92173D5A3B9 /* PBXContainerItemProxy */;
+			targetProxy = 55EB01A3880365DD2378086F42DFABC4 /* PBXContainerItemProxy */;
 		};
 		9FF685D110FB9372ED98368650B4C03E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -782,112 +802,76 @@
 			};
 			name = Release;
 		};
-		2F924EBFFA7E4718924DFD183591406B /* Release */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CCD741B94BE44EE75B63E28890A899F /* Pods-GiniReoTestProject_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GiniReoTestProject_Tests/Pods-GiniReoTestProject_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GiniReoTestProject_Tests/Pods-GiniReoTestProject_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54F17AB826D60BE8D65B5D1691A9BA47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82BB08CCCF9B306B57166A8EE80F8EFA /* Pods-GiniReoTestProject_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GiniReoTestProject_Example/Pods-GiniReoTestProject_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GiniReoTestProject_Example/Pods-GiniReoTestProject_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		623017E3107BE3A7C21ABD22F5AF4FC5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D307A512C6E58203ED8AD188BF74577 /* Pods-GiniReoTestProject_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GiniReoTestProject_Tests/Pods-GiniReoTestProject_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GiniReoTestProject_Tests/Pods-GiniReoTestProject_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6CFA49189BAF51FED982F50F219F2B45 /* Debug */ = {
+		30516A2A314DF536A6E17F2E5468600A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1ABDF992BCADE29AC7B172D701C183E /* Pods-GiniReoTestProject_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -899,7 +883,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GiniReoTestProject_Example/Pods-GiniReoTestProject_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GiniReoTestProject_Example/Pods-GiniReoTestProject_Example.modulemap";
@@ -915,6 +899,76 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		58AB274E9C2F212069341AE0052D037A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCD741B94BE44EE75B63E28890A899F /* Pods-GiniReoTestProject_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GiniReoTestProject_Tests/Pods-GiniReoTestProject_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiniReoTestProject_Tests/Pods-GiniReoTestProject_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D9436E614DF3C1BCAF2E48B804F6F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BB08CCCF9B306B57166A8EE80F8EFA /* Pods-GiniReoTestProject_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GiniReoTestProject_Example/Pods-GiniReoTestProject_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiniReoTestProject_Example/Pods-GiniReoTestProject_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		748498E8115A9B2444F6008CC367BF02 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -978,9 +1032,41 @@
 			};
 			name = Debug;
 		};
-		7D7C7653F5CED01E847D5889DB7E6C50 /* Release */ = {
+		86ADC2A6CD99909EEAB880736DFEECF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 090D565D6453CEE192B99BE2210C61AE /* GiniReoTestProject.xcconfig */;
+			baseConfigurationReference = B0089DCD4CE603CD9A49CA16A1213796 /* GiniReoTestProject.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GiniReoTestProject/GiniReoTestProject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GiniReoTestProject/GiniReoTestProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GiniReoTestProject/GiniReoTestProject.modulemap";
+				PRODUCT_MODULE_NAME = GiniReoTestProject;
+				PRODUCT_NAME = GiniReoTestProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		971C27492B20FD4CA9D3C90C694B8A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0089DCD4CE603CD9A49CA16A1213796 /* GiniReoTestProject.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1011,39 +1097,7 @@
 			};
 			name = Release;
 		};
-		9CECEBEE96D2C505BAD2AD73E2035201 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 090D565D6453CEE192B99BE2210C61AE /* GiniReoTestProject.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GiniReoTestProject/GiniReoTestProject-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GiniReoTestProject/GiniReoTestProject-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GiniReoTestProject/GiniReoTestProject.modulemap";
-				PRODUCT_MODULE_NAME = GiniReoTestProject;
-				PRODUCT_NAME = GiniReoTestProject;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1091,7 +1145,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1103,67 +1157,37 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		DED5C718D5E1FFD3600B1C434D10F4A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D307A512C6E58203ED8AD188BF74577 /* Pods-GiniReoTestProject_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GiniReoTestProject_Tests/Pods-GiniReoTestProject_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GiniReoTestProject_Tests/Pods-GiniReoTestProject_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1214,8 +1238,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1223,8 +1247,8 @@
 		71C7A93968C750BB7F532BF28A6F7FAA /* Build configuration list for PBXNativeTarget "Pods-GiniReoTestProject_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				623017E3107BE3A7C21ABD22F5AF4FC5 /* Debug */,
-				2F924EBFFA7E4718924DFD183591406B /* Release */,
+				DED5C718D5E1FFD3600B1C434D10F4A9 /* Debug */,
+				58AB274E9C2F212069341AE0052D037A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1232,8 +1256,17 @@
 		B8C4DDAAEBADB8F3CAF61E7B1D1E2C42 /* Build configuration list for PBXNativeTarget "Pods-GiniReoTestProject_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CFA49189BAF51FED982F50F219F2B45 /* Debug */,
-				54F17AB826D60BE8D65B5D1691A9BA47 /* Release */,
+				30516A2A314DF536A6E17F2E5468600A /* Debug */,
+				5D9436E614DF3C1BCAF2E48B804F6F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB823C1814503443FAFFEFF99282A08 /* Build configuration list for PBXNativeTarget "GiniReoTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86ADC2A6CD99909EEAB880736DFEECF4 /* Debug */,
+				971C27492B20FD4CA9D3C90C694B8A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1243,15 +1276,6 @@
 			buildConfigurations = (
 				75BBB760DFD877E344322B54D29DFE64 /* Debug */,
 				F94FD07C591B17B7E61A1528AB9BCB3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8D80B3959FA8299C9AE7BABD4EB355C /* Build configuration list for PBXNativeTarget "GiniReoTestProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9CECEBEE96D2C505BAD2AD73E2035201 /* Debug */,
-				7D7C7653F5CED01E847D5889DB7E6C50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

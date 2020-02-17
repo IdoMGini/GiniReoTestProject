@@ -2,11 +2,14 @@ PODS:
   - Alamofire (4.9.1)
   - AlamofireImage (3.6.0):
     - Alamofire (~> 4.9)
-  - GiniReoTestProject (0.1.0):
+  - GiniReoTestProject/Child (0.5.0):
+    - GiniReoTestProject/Core
+  - GiniReoTestProject/Core (0.5.0):
     - AlamofireImage (~> 3.5)
 
 DEPENDENCIES:
-  - GiniReoTestProject (from `../`)
+  - GiniReoTestProject/Child (from `../`)
+  - GiniReoTestProject/Core (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -20,8 +23,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
-  GiniReoTestProject: d9a68e8eca2503f96bd6cd44b823dcd6427f0202
+  GiniReoTestProject: 88c5fc039280775d8328d8c64ccbb675b8d7a620
 
-PODFILE CHECKSUM: 38c0340a8e04017d3dcdc053e30901481581f953
+PODFILE CHECKSUM: 27917794db03ac2a5c4c5960899f06a2a525ebfd
 
 COCOAPODS: 1.8.4

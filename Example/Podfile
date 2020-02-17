@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'GiniReoTestProject_Example' do
-  pod 'GiniReoTestProject', :path => '../'
+  pod 'GiniReoTestProject/Core', :path => '../'
+  pod 'GiniReoTestProject/Child', :path => '../'
 
   target 'GiniReoTestProject_Tests' do
     inherit! :search_paths
